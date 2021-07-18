@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.loginpage">
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/bd"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/bd"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".RequestInfo"></activity>
+        <activity android:name=".Requests" />
+        <activity android:name=".ContactUs" />
+        <activity android:name=".TakerActivity" />
+        <activity android:name=".Feedback" />
+        <activity android:name=".InviteADonor" />
+        <activity android:name=".Help" />
+        <activity android:name=".Donations" />
+        <activity android:name=".userInfo" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NavigationDrawer"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.example.loginpage.NavigationDrawer" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegistrationForm">
+            <intent-filter>
+                <action android:name="com.example.loginpage.RegistrationForm" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".changePassword">
+            <intent-filter>
+                <action android:name="com.example.loginpage.changePassword" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Users">
+            <intent-filter>
+                <action android:name="com.example.loginpage.Users" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SearchDonor">
+            <intent-filter>
+                <action android:name="com.example.loginpage.SearchDonor" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".settings">
+            <intent-filter>
+                <action android:name="com.example.loginpage.Settings" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".trialAccountActivity">
+            <intent-filter>
+                <action android:name="com.example.loginpage.trialAccountActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+
+</manifest>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Account"
+            android:icon="@drawable/profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/NewDonation"
+            android:icon="@drawable/new1"
+            android:title="New Donation" />
+        <item
+            android:id="@+id/Activities"
+            android:icon="@drawable/activity"
+            android:title="Your Activities" />
+        <item
+            android:id="@+id/Help"
+            android:icon="@drawable/fact"
+            android:title="Facts and Guidlines" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/Invite"
+                android:icon="@drawable/share"
+                android:title="Invite a Donor" />
+            <item
+                android:id="@+id/Feedback"
+                android:icon="@drawable/feedback"
+                android:title="Feedback" />
+
+            <item
+                android:id="@+id/contactUs"
+                android:icon="@drawable/contact"
+                android:title="Contact Us" />
+
+        </menu>
+    </item>
+
+</menu>

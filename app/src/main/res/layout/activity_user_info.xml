@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".userInfo">
+
+    <ImageButton
+        android:id="@+id/call"
+        android:layout_width="111dp"
+        android:layout_height="122dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginRight="148dp"
+        android:layout_marginBottom="140dp"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/phone" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="306dp"
+        android:layout_height="333dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/call"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/Uname"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="Name:"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/Ucontact"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Contact:"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/Ubloodgroup"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:text="Blood Group:"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/Ucity"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:text="City:"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
